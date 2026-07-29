@@ -1,0 +1,15 @@
+{
+	"name": "adfforvaish",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5953bc32-aa29-4d18-9de3-06f045585296",
+		"tenantId": "72ab582c-dbf0-4e64-9287-5c88fde3377c"
+	}
+}

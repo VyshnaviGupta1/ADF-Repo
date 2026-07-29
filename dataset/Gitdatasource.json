@@ -1,0 +1,23 @@
+{
+	"name": "Gitdatasource",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "githublinkservice",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "VyshnaviGupta1/Demo-Files/refs/heads/main/data.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
